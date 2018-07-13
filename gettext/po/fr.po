@@ -1,0 +1,23 @@
+# French translations for gt package.
+# Copyright (C) 2018 John Calcote
+# This file is distributed under the same license as the gt package.
+# John Calcote <john.calcote@gmail.com>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gt 1.0\n"
+"Report-Msgid-Bugs-To: gt-bugs@example.org\n"
+"POT-Creation-Date: 2018-07-06 01:17-0600\n"
+"PO-Revision-Date: 2018-07-06 01:35-0600\n"
+"Last-Translator: John Calcote <john.calcote@gmail.com>\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: src/gt.c:21
+#, c-format
+msgid "Hello, world!\n"
+msgstr "Bonjour le monde!\n"
