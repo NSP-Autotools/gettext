@@ -1,8 +1,8 @@
 #include "config.h"
+#include "gettext.h"
 
 #include <stdio.h>
 #include <locale.h>
-#include <libintl.h>
 
 #ifndef LOCALE_DIR
 # define LOCALE_DIR "/usr/local/share/locale"

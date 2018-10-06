@@ -10,6 +10,8 @@ AC_CONFIG_MACRO_DIRS([m4])
 
 # Checks for programs.
 AC_PROG_CC
+AM_GNU_GETTEXT([external])
+AM_GNU_GETTEXT_VERSION([0.19.7])
 
 # Checks for libraries.
 
@@ -21,6 +23,6 @@ AC_CHECK_HEADERS([libintl.h locale.h])
 # Checks for library functions.
 AC_CHECK_FUNCS([setlocale])
 
-AC_CONFIG_FILES([Makefile])
+AC_CONFIG_FILES([Makefile po/Makefile.in])
 
 AC_OUTPUT
